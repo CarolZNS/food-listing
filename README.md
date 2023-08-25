@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+
+<div align="center">
+  <h1 align="center">Food Listing</h1>
+
+  <p align="center">
+    A simple project from the Modern React Redux Udemy course.
+  </p>
+</div>
+
+## About
+
+This project was done following the instructions and lessons from the original Modern React Redux Course on Udemy. The actual project from the teacher was a book listing site, but I changed it to foods and added some small modifications to the random image added on the page. Please do be aware that some images do not actually match the name of the dish given.
+
+## Getting Started
+
+Follow these steps to get the project working:
+
+### Prerequisites
+
+npm or yarn, whichever you are more used to. The project was built with npm, but yarn should work just as fine.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+
+1. Clone the repo
+   ```sh
+   git clone git@github.com:CarolZNS/food-listing.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the project server and then run the application
+   ```sh
+   npm run server
+   npm run start
+   ```
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+Type in a dish or food name in the input at the bottom and make a list of all your favorite food. You can edit the name or delete the food entry. The image will be generated randomly for each entry.
+
+The entries will be stored in the JSON server in the file db.json.
+
+
+<p align="left">(<a href="#readme-top">back to top</a>)</p>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Images used by this project were taken from [loremflicker](https://loremflickr.com).
