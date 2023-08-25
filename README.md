@@ -53,4 +53,5 @@ The entries will be stored in the JSON server in the file db.json.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 Images used by this project were taken from [loremflicker](https://loremflickr.com).
