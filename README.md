@@ -12,6 +12,8 @@
 
 This project was done following the instructions and lessons from the original Modern React Redux Course on Udemy. The actual project from the teacher was a book listing site, but I changed it to foods and added some small modifications to the random image added on the page. Please do be aware that some images do not actually match the name of the dish given.
 
+The main purpose of the project is to practice react fundamentals and learn how to make custom hooks.
+
 ## Getting Started
 
 Follow these steps to get the project working:
